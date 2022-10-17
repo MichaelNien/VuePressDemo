@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - '8'
 before_install:
-  - tyarn add -D vuepress
+  - yarm add -D vuepress
 script:
-  - tyarn run docs:build
+  - yarm run docs:build
 deploy:
   provider: pages
   skip-cleanup: true
